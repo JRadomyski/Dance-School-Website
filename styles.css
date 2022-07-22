@@ -1,0 +1,443 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Georgia;
+}
+
+#glinkaart{
+  padding-top: 100px;
+  text-align: center;
+  margin: auto;
+  height: 110vh;
+
+}
+
+#glinkaart h1{
+  padding-top: 50px;
+  color: black;
+}
+
+#glinkaart img{
+  text-align: center;
+  justify-self: center;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#glinkaart span{
+  opacity: 0%;
+  color: black;
+}
+
+
+#glinkaart span.fade{
+  opacity:100%;
+  color: black;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  width: 100px;
+  height: 100px;
+  opacity: 200%;
+  animation: Blink 4s ease-in-out;
+}
+
+.arrow:hover{
+  cursor: pointer;
+  opacity: 30%;
+  animation: 0.1s ease infinite;
+
+}
+
+@keyframes Blink{
+  0% {opacity: 0%;}
+  25% {opacity: 100%;}
+  50% {opacity: 0%;}
+  100% {opacity: 100%;}
+}
+
+
+#services{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 190px;
+  padding-bottom: 190px;
+  padding-top: 100px;
+
+}
+
+
+.service-container {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+  
+.service-container .number-icon .number {
+  position: absolute;
+  top: 0;
+  right: 70px;
+  left: 0;
+  height: 35px;
+  width: 35px;
+  margin: 0 auto;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  }
+  
+  .service-container .number-icon .number span {
+    line-height: 30px;
+  }
+  
+  .service-container .content .number {
+    font-size: 40px;
+    color: #dee2e6;
+  }
+  
+  .service-container .content .title {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  }
+  
+  .service-container.hover-bg {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  }
+  
+
+  
+.service-container.hover-bg:hover .content .title {
+  color: #ffffff !important;
+}
+  
+.service-container.hover-bg:hover .content .serv-pera {
+  color: #fafafb !important;
+}
+
+.service-container:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 10px 25px rgba(47, 60, 78, 0.15) !important;
+  box-shadow: 0 10px 25px rgba(47, 60, 78, 0.15) !important;
+}
+  
+  
+.service-wrapper {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+
+.service-wrapper .content .title {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-weight: 500;
+}
+  
+.service-wrapper:hover {
+  -webkit-box-shadow: 0 10px 25px rgba(47, 60, 78, 0.15) !important;
+  box-shadow: 0 10px 25px rgba(47, 60, 78, 0.15) !important;
+  background: #ffffff;
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+  border-color: transparent !important;
+}
+  
+
+.text-custom {
+  color: #ff0000 !important;
+}
+
+.scroll{
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.welcome {
+  text-align: center;
+  background: rgb(255, 255, 255);
+  padding: 70px 50px;
+  background: url(images/taniecsiedlce.jpg) center center;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 90px;
+  height: 60vh;
+}
+
+.welcome_v2{
+  text-align: center;
+  background: rgb(255, 255, 255);
+  padding: 0px 50px;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 0px;
+}
+
+.welcome_v2 span{
+  opacity:0%;
+}
+
+.welcome_v2 span.fade{
+  opacity: 100%;
+}
+
+.welcome img{
+  margin-top: 100px;
+  cursor: pointer;
+  padding-bottom: 300px;
+  animation: Blink 3s infinite ease;
+}
+
+#header{
+  padding-bottom: 100px;
+}
+
+#programms{
+    text-align: center;
+}
+
+#propositions{
+  text-align: center;
+  padding: 100px 50px;
+  background-color: #1b1b1b;
+}
+
+
+#propositions h1, button{
+  text-align: center;
+  padding-bottom: 20px;
+  color: azure;
+
+}
+
+#propositions button a{
+  font-size: larger;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.buttonspotify{
+  padding-bottom: 50px;
+}
+
+#spotify iframe{
+  box-sizing: border-box;
+  padding: 20px 50px;
+  flex-wrap:wrap-reverse;
+}
+
+#video{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#video iframe{
+  margin: auto;
+  text-align: center;
+}
+
+#video h1{
+  font-size: 70px;
+  padding-bottom: 90px;
+  text-align: center;
+
+}
+
+#video h2{
+  font-size: 40px;
+  padding: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#video h2{
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  color: #1b1b1b;
+}
+
+#button_effects{
+  text-align: center;
+}
+
+
+.moreopinions{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#links{
+  padding-top: 250px;
+  padding-bottom: 150px;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+}
+
+
+footer{
+  display: flex;
+  flex-direction: row;
+  background-color: #1b1b1b;
+}
+
+footer ul{
+  list-style: none;
+  margin:  auto;
+  color: aliceblue;
+  padding: 10px 40px;
+  margin-bottom: 0;
+}
+
+footer ul a{
+  text-decoration: none;
+  color: azure;
+}
+
+footer ul a:hover{
+  color:brown;
+}
+
+#cennik{
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+
+#details{
+  padding-top: 100px;
+  text-align: center;
+}
+
+
+#contact{
+  padding-top: 100px;
+  text-align: center;
+  flex-direction: column;
+}
+
+form{
+  width: 640px;
+  margin: 50px auto;
+
+  border-radius: 4px;
+  padding: 55px 30px;
+}
+
+form .title h2{
+  letter-spacing: 6px;
+  border-bottom: 1px solid black;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 32px;
+}
+
+form .half{
+
+  display: flex;
+  justify-content: center;
+}
+form .half2{
+  display: flex;
+  justify-content: center;
+}
+
+form .half .item, form .half2 .item{
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: 48%;
+}
+
+form label{
+  display: block;
+  font-size: 13px;
+  letter-spacing: 3.5px;
+  margin-bottom: 16px;
+}
+
+form .half .item input, form .half2 .item input{
+  border-radius: 4px;
+  border: 1px solid rgb(0, 0, 0);
+  outline: 0;
+  padding: 16px;
+  width: 100%;
+  height: 44px;
+  background: transparent;
+  font-size: 17px;
+}
+
+form .full{
+  margin-bottom: 24px;
+}
+
+form .full textarea{
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid rgb(0, 0, 0);
+  outline: 0;
+  padding: 12px 16px;
+  width: 100%;
+  height: 200px;
+  font-size: 17px;
+}
+
+form .action{
+  margin-bottom: 32px;
+}
+
+form .action input{
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  height: 44px;
+  letter-spacing: 3px;
+  outline: 0;
+  padding: 0 20px 0 22px;
+  margin-right: 10px;
+}
+
+form .icons a{
+  border: 1px solid white;
+  border-radius: 50%;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 600;
+  width: 38px;
+  margin-right: 10px;
+}
+
+#onlyus{
+  padding: 100px;
+
+}
+
+#goback{
+  text-align: center;
+}
+
+#goback img{
+  text-align: center;
+  justify-self: center;
+  margin: auto;
+}
