@@ -1,4 +1,5 @@
 *{
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: Georgia;
@@ -6,6 +7,7 @@
 
 #glinkaart{
   padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
   margin: auto;
   height: 110vh;
@@ -40,7 +42,6 @@
 .arrow {
   display: flex;
   align-items: center;
-  justify-content:center ;
   -webkit-transform:rotate(180deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
@@ -49,13 +50,13 @@
   width: 100px;
   height: 100px;
   opacity: 200%;
-  animation: Blink 4s ease-in-out;
+  animation: Blink 4s ease-in-out infinite;
 }
 
 .arrow:hover{
   cursor: pointer;
   opacity: 30%;
-  animation: 0.1s ease infinite;
+  animation: 0.3s ease;
 
 }
 
@@ -72,95 +73,65 @@
   text-align: center;
   flex-wrap: wrap;
   flex-direction: column;
+  margin-top: 100px;
   margin-bottom: 190px;
   padding-bottom: 190px;
   padding-top: 100px;
-
 }
 
 
-.service-container {
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
 
-  
-.service-container .number-icon .number {
-  position: absolute;
-  top: 0;
-  right: 70px;
-  left: 0;
-  height: 35px;
-  width: 35px;
-  margin: 0 auto;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  }
-  
-  .service-container .number-icon .number span {
-    line-height: 30px;
-  }
-  
-  .service-container .content .number {
-    font-size: 40px;
-    color: #dee2e6;
-  }
-  
-  .service-container .content .title {
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  }
-  
-  .service-container.hover-bg {
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  }
-  
 
-  
-.service-container.hover-bg:hover .content .title {
-  color: #ffffff !important;
-}
-  
-.service-container.hover-bg:hover .content .serv-pera {
-  color: #fafafb !important;
-}
-
-.service-container:hover {
+.card-service-container:hover {
   background-color: #ffffff;
-  -webkit-box-shadow: 0 10px 25px rgba(47, 60, 78, 0.15) !important;
-  box-shadow: 0 10px 25px rgba(47, 60, 78, 0.15) !important;
+  -webkit-box-shadow: 0 10px 25px rgba(47, 60, 78, 0.15);
+  box-shadow: 0 10px 25px rgba(47, 60, 78, 0.15);
 }
   
   
-.service-wrapper {
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-  }
-
-.service-wrapper .content .title {
+.card-service-wrapper {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  font-weight: 500;
 }
-  
-.service-wrapper:hover {
-  -webkit-box-shadow: 0 10px 25px rgba(47, 60, 78, 0.15) !important;
-  box-shadow: 0 10px 25px rgba(47, 60, 78, 0.15) !important;
+
+
+.card-service-wrapper:hover {
+  -webkit-box-shadow: 0 10px 25px rgba(47, 60, 78, 0.15);
+  box-shadow: 0 10px 25px rgba(47, 60, 78, 0.15);
   background: #ffffff;
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
-  border-color: transparent !important;
+  border-color: transparent;
 }
   
+.card-service-wrapper{
+  height: 25em;
+}
 
 .text-custom {
-  color: #ff0000 !important;
+  flex-direction: row;
+  color: #dc3545;
+  transition: color 0.3s ease;
+}
+
+.text-custom:hover{
+  color: #1b1b1b;
+}
+
+
+#onlyus{
+  background-image: linear-gradient(to bottom, rgba(7, 7, 7, 0.389), rgb(18, 18, 18)), url('images/graphic.jpg');
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-size: 1.5em;
+  
 }
 
 .scroll{
-  padding: 20px;
-  padding-top: 50px;
+  padding-top: 150px;
+  overflow: hidden;
 }
 
 .welcome {
@@ -208,7 +179,7 @@
 
 #propositions{
   text-align: center;
-  padding: 100px 50px;
+  padding: 150px 50px;
   background-color: #1b1b1b;
 }
 
@@ -226,48 +197,6 @@
   text-decoration: none;
 }
 
-.buttonspotify{
-  padding-bottom: 50px;
-}
-
-#spotify iframe{
-  box-sizing: border-box;
-  padding: 20px 50px;
-  flex-wrap:wrap-reverse;
-}
-
-#video{
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#video iframe{
-  margin: auto;
-  text-align: center;
-}
-
-#video h1{
-  font-size: 70px;
-  padding-bottom: 90px;
-  text-align: center;
-
-}
-
-#video h2{
-  font-size: 40px;
-  padding: 40px;
-  text-align: center;
-  text-decoration: underline;
-}
-
-#video h2{
-  font-size: 40px;
-  text-align: center;
-  text-decoration: underline;
-  color: #1b1b1b;
-}
 
 #button_effects{
   text-align: center;
@@ -275,10 +204,19 @@
 
 
 .moreopinions{
-  display: flex;
   align-items: center;
-  justify-content: center;
 }
+.moreopinions a{
+  text-decoration: none;
+  color: #1b1b1b;
+  transition: all 0.3s ease;
+}
+
+.moreopinions a:hover{
+  color: #dc3545;
+  text-decoration: underline;
+}
+
 
 #links{
   padding-top: 250px;
@@ -299,7 +237,6 @@ footer ul{
   list-style: none;
   margin:  auto;
   color: aliceblue;
-  padding: 10px 40px;
   margin-bottom: 0;
 }
 
@@ -312,7 +249,7 @@ footer ul a:hover{
   color:brown;
 }
 
-#cennik{
+#pricing{
   margin-top: 100px;
   margin-bottom: 100px;
 
@@ -334,7 +271,6 @@ footer ul a:hover{
 form{
   width: 640px;
   margin: 50px auto;
-
   border-radius: 4px;
   padding: 55px 30px;
 }
@@ -427,10 +363,7 @@ form .icons a{
   margin-right: 10px;
 }
 
-#onlyus{
-  padding: 100px;
 
-}
 
 #goback{
   text-align: center;
@@ -440,4 +373,29 @@ form .icons a{
   text-align: center;
   justify-self: center;
   margin: auto;
+}
+
+
+#gift{
+  padding-top: 100px;
+  background-color: #1b1b1b;
+  color: #ffffff;
+}
+
+
+
+@media(min-width: 1900px){
+  #onlyus{
+    background-size: 100%;
+  }
+}
+
+@media(max-width:991px){
+  .row{
+    padding: 30px 40px;
+  }
+  #services > .row{
+    display: none;
+  }
+
 }
