@@ -6,12 +6,12 @@
 }
 
 #glinkaart{
+  height: fit-content;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 300px;
   text-align: center;
   margin: auto;
-  height: 110vh;
-
+  margin-bottom: 100px;
 }
 
 #glinkaart h1{
