@@ -79,9 +79,6 @@
   padding-top: 100px;
 }
 
-
-
-
 .card-service-container:hover {
   background-color: #ffffff;
   -webkit-box-shadow: 0 10px 25px rgba(47, 60, 78, 0.15);
@@ -121,6 +118,7 @@
 
 #onlyus{
   background-image: linear-gradient(to bottom, rgba(7, 7, 7, 0.389), rgb(18, 18, 18)), url('images/graphic.jpg');
+  background-color: black;
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -183,7 +181,6 @@
   background-color: #1b1b1b;
 }
 
-
 #propositions h1, button{
   text-align: center;
   padding-bottom: 20px;
@@ -197,11 +194,9 @@
   text-decoration: none;
 }
 
-
 #button_effects{
   text-align: center;
 }
-
 
 .moreopinions{
   align-items: center;
@@ -216,7 +211,6 @@
   color: #dc3545;
   text-decoration: underline;
 }
-
 
 #links{
   padding-top: 250px;
@@ -363,8 +357,6 @@ form .icons a{
   margin-right: 10px;
 }
 
-
-
 #goback{
   text-align: center;
 }
@@ -375,14 +367,11 @@ form .icons a{
   margin: auto;
 }
 
-
 #gift{
   padding-top: 100px;
   background-color: #1b1b1b;
   color: #ffffff;
 }
-
-
 
 @media(min-width: 1900px){
   #onlyus{
