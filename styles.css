@@ -23,8 +23,8 @@
   text-align: center;
   justify-self: center;
   margin: auto;
-  width: 300px;
-  height: 300px;
+  width: 450px;
+  height: 450px;
   border-radius: 50%;
 }
 
@@ -380,6 +380,10 @@ form .icons a{
 }
 
 @media(max-width:991px){
+  #glinkaart img{
+    width: 350px;
+    height: 350px;
+  }
   .row{
     padding: 30px 40px;
   }
