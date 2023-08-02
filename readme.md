@@ -14,10 +14,5 @@ In the future, I'll add NetlifyCMS in order to make this website a blog-based on
 
 ## 📸 Samples:
 
-![Index Page Screenshot](index.png)
-![About Us Page Screenshot](aboutus.png)
-![Pricing Page Screenshot](pricing.png)
-![Contact Page Screenshot](contact.png)
-
 ## 🔗 URL
 [www.taniecsiedlce.com](http://www.taniecsiedlce.com)
