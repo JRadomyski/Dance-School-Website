@@ -12,7 +12,5 @@ Made with:
 ## 🔜 Next goal
 In the future, I'll add NetlifyCMS in order to make this website a blog-based one. 📝
 
-## 📸 Samples:
-
 ## 🔗 URL
 [www.taniecsiedlce.com](http://www.taniecsiedlce.com)
