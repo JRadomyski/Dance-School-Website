@@ -92,10 +92,9 @@ a.nav__link:hover{
   opacity: 0.5;
 }
 
-
 #glinkaart{
   height: fit-content;
-  padding-top: 100px;
+  padding-top: 60px;
   padding-bottom: 300px;
   text-align: center;
   margin: auto;
@@ -103,7 +102,8 @@ a.nav__link:hover{
 }
 
 #glinkaart h1{
-  padding-top: 50px;
+  padding-top: 20px;
+  font-size: 3rem;
   color: black;
 }
 
@@ -135,8 +135,6 @@ a.nav__link:hover{
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
-  width: 100px;
-  height: 100px;
   opacity: 200%;
   animation: Blink 4s ease-in-out infinite;
 }
@@ -145,7 +143,6 @@ a.nav__link:hover{
   cursor: pointer;
   opacity: 30%;
   animation: 0.3s ease;
-
 }
 
 @keyframes Blink{
