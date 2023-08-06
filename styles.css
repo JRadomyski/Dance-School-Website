@@ -6,7 +6,7 @@
 }
 
 body::-webkit-scrollbar {
-    width: 1px;
+    width: 5px;
 }
 
 body::-webkit-scrollbar-track {
@@ -14,8 +14,8 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: darkred;
-    outline: 5px solid darkred;
+    background-color: red;
+    outline: 5px solid red;
 }
 
 .hamburger-desktop {
