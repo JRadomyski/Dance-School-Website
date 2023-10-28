@@ -9,8 +9,5 @@ Made with:
 + 💻 javascript
 + 🅱 bootstrap
 
-## 🔜 Next goal
-In the future, I'll add NetlifyCMS in order to make this website a blog-based one. 📝
-
 ## 🔗 URL
 [www.taniecsiedlce.com](http://www.taniecsiedlce.com)
