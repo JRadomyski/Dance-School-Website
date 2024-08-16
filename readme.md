@@ -19,4 +19,4 @@ To get started with this template:
 
 1. **Clone the repository**:  
    ```bash
-   git clone https://github.com/jradomyski/dance-school-template.git
+   git clone git@github.com:JRadomyski/Dance-School-Website.git
