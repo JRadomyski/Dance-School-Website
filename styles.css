@@ -321,8 +321,8 @@ footer {
     background-color: #1b1b1b;
 }
 
-#compName, .footer__year {
-    color: aliceblue;
+#compName {
+    margin-top: 2rem;;
 }
 
 #pricing {
